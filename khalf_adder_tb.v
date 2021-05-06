@@ -16,12 +16,7 @@ khalf_adder khalf_adder_1 (
     .sum(sum_tb),
     .c_out(c_out_tb)
 );
-khalf_adder khalf_adder_2(
-    .a(a_tb),
-    .b(b_tb),
-    .sum(sum_tb),
-    .c_out(c_out_tb)
-);
+
 initial begin
         a_tb = 0'b0;
         b_tb = 1'b0;
